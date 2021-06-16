@@ -40,9 +40,17 @@ import "unsafe"
 
 import "github.com/adigal150/go.pkt/packet"
 
+const(
+    DefaultCaptureLength = 262144
+)
+
 // Compile the given tcpdump-like expression to a BPF filter.
 func Compile(filter string, link_type packet.Type, captureLength int, optimize bool) (*Filter, error) {
     var do_optimize int
+
+    if captureLength <= 0 {
+        captureLength = DefaultCaptureLength
+    }
 
     if optimize {
         do_optimize = 1
