@@ -37,14 +37,14 @@ import "time"
 
 import "github.com/docopt/docopt-go"
 
-import "github.com/ghedo/go.pkt/capture/pcap"
+import "github.com/adigal150/go.pkt/capture/pcap"
 
-import "github.com/ghedo/go.pkt/packet/eth"
-import "github.com/ghedo/go.pkt/packet/icmpv4"
-import "github.com/ghedo/go.pkt/packet/ipv4"
+import "github.com/adigal150/go.pkt/packet/eth"
+import "github.com/adigal150/go.pkt/packet/icmpv4"
+import "github.com/adigal150/go.pkt/packet/ipv4"
 
-import "github.com/ghedo/go.pkt/network"
-import "github.com/ghedo/go.pkt/routing"
+import "github.com/adigal150/go.pkt/network"
+import "github.com/adigal150/go.pkt/routing"
 
 func main() {
     log.SetFlags(0)

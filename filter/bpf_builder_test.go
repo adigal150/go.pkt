@@ -33,7 +33,7 @@ package filter_test
 import "log"
 import "testing"
 
-import "github.com/ghedo/go.pkt/filter"
+import "github.com/adigal150/go.pkt/filter"
 
 func TestEmpty(t *testing.T) {
     bld := filter.NewBuilder()

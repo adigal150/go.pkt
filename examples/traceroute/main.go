@@ -38,19 +38,19 @@ import "time"
 
 import "github.com/docopt/docopt-go"
 
-import "github.com/ghedo/go.pkt/capture/pcap"
+import "github.com/adigal150/go.pkt/capture/pcap"
 
-import "github.com/ghedo/go.pkt/packet"
-import "github.com/ghedo/go.pkt/packet/eth"
-import "github.com/ghedo/go.pkt/packet/icmpv4"
-import "github.com/ghedo/go.pkt/packet/ipv4"
-import "github.com/ghedo/go.pkt/packet/raw"
-import "github.com/ghedo/go.pkt/packet/tcp"
-import "github.com/ghedo/go.pkt/packet/udp"
+import "github.com/adigal150/go.pkt/packet"
+import "github.com/adigal150/go.pkt/packet/eth"
+import "github.com/adigal150/go.pkt/packet/icmpv4"
+import "github.com/adigal150/go.pkt/packet/ipv4"
+import "github.com/adigal150/go.pkt/packet/raw"
+import "github.com/adigal150/go.pkt/packet/tcp"
+import "github.com/adigal150/go.pkt/packet/udp"
 
-import "github.com/ghedo/go.pkt/layers"
-import "github.com/ghedo/go.pkt/network"
-import "github.com/ghedo/go.pkt/routing"
+import "github.com/adigal150/go.pkt/layers"
+import "github.com/adigal150/go.pkt/network"
+import "github.com/adigal150/go.pkt/routing"
 
 func main() {
     log.SetFlags(0)

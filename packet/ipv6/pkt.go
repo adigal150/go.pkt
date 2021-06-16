@@ -34,8 +34,8 @@ package ipv6
 import "encoding/binary"
 import "net"
 
-import "github.com/ghedo/go.pkt/packet"
-import "github.com/ghedo/go.pkt/packet/ipv4"
+import "github.com/adigal150/go.pkt/packet"
+import "github.com/adigal150/go.pkt/packet/ipv4"
 
 type Packet struct {
     Version     uint8

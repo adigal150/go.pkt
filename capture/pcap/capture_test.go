@@ -32,7 +32,7 @@ package pcap_test
 
 import "log"
 
-import "github.com/ghedo/go.pkt/capture/pcap"
+import "github.com/adigal150/go.pkt/capture/pcap"
 
 func ExampleCapture() {
     src, err := pcap.Open("eth0")

@@ -33,8 +33,8 @@ package arp
 
 import "net"
 
-import "github.com/ghedo/go.pkt/packet"
-import "github.com/ghedo/go.pkt/packet/eth"
+import "github.com/adigal150/go.pkt/packet"
+import "github.com/adigal150/go.pkt/packet/eth"
 
 type Packet struct {
     Operation     Operation        `string:"op"`

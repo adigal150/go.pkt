@@ -35,11 +35,11 @@ import "strconv"
 
 import "github.com/docopt/docopt-go"
 
-import "github.com/ghedo/go.pkt/capture"
-import "github.com/ghedo/go.pkt/capture/pcap"
-import "github.com/ghedo/go.pkt/capture/file"
-import "github.com/ghedo/go.pkt/filter"
-import "github.com/ghedo/go.pkt/layers"
+import "github.com/adigal150/go.pkt/capture"
+import "github.com/adigal150/go.pkt/capture/pcap"
+import "github.com/adigal150/go.pkt/capture/file"
+import "github.com/adigal150/go.pkt/filter"
+import "github.com/adigal150/go.pkt/layers"
 
 func main() {
     log.SetFlags(0)

@@ -33,8 +33,8 @@ package filter_test
 import "log"
 import "testing"
 
-import "github.com/ghedo/go.pkt/filter"
-import "github.com/ghedo/go.pkt/packet"
+import "github.com/adigal150/go.pkt/filter"
+import "github.com/adigal150/go.pkt/packet"
 
 var test_eth_arp = []byte{
     0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x4c, 0x72, 0xb9, 0x54, 0xe5, 0x3d,

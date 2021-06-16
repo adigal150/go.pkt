@@ -37,12 +37,12 @@ import "fmt"
 import "net"
 import "time"
 
-import "github.com/ghedo/go.pkt/capture"
-import "github.com/ghedo/go.pkt/packet"
-import "github.com/ghedo/go.pkt/packet/arp"
-import "github.com/ghedo/go.pkt/packet/eth"
-import "github.com/ghedo/go.pkt/layers"
-import "github.com/ghedo/go.pkt/routing"
+import "github.com/adigal150/go.pkt/capture"
+import "github.com/adigal150/go.pkt/packet"
+import "github.com/adigal150/go.pkt/packet/arp"
+import "github.com/adigal150/go.pkt/packet/eth"
+import "github.com/adigal150/go.pkt/layers"
+import "github.com/adigal150/go.pkt/routing"
 
 // Pack packets into their binary form and inject them in the given capture
 // handle.. This will stack the packets before encoding them and also calculate

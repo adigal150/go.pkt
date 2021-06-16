@@ -32,8 +32,8 @@
 // implementations ("pcap", "file", ...) are provided as subpackages.
 package capture
 
-import "github.com/ghedo/go.pkt/filter"
-import "github.com/ghedo/go.pkt/packet"
+import "github.com/adigal150/go.pkt/filter"
+import "github.com/adigal150/go.pkt/packet"
 
 type Handle interface {
     LinkType() packet.Type

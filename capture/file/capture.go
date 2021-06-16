@@ -38,8 +38,8 @@ import "fmt"
 import "io"
 import "os"
 
-import "github.com/ghedo/go.pkt/filter"
-import "github.com/ghedo/go.pkt/packet"
+import "github.com/adigal150/go.pkt/filter"
+import "github.com/adigal150/go.pkt/packet"
 
 type Handle struct {
     File  string

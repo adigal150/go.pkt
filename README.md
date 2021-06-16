@@ -32,12 +32,12 @@ decoding network packets.
   can either return all available routes or select a specific route depending on
   a destination address.
 
-[capture]: http://godoc.org/github.com/ghedo/go.pkt/capture
-[filter]: http://godoc.org/github.com/ghedo/go.pkt/filter
-[packet]: http://godoc.org/github.com/ghedo/go.pkt/packet
-[layers]: http://godoc.org/github.com/ghedo/go.pkt/layers
-[network]: http://godoc.org/github.com/ghedo/go.pkt/network
-[routing]: http://godoc.org/github.com/ghedo/go.pkt/routing
+[capture]: http://godoc.org/github.com/adigal150/go.pkt/capture
+[filter]: http://godoc.org/github.com/adigal150/go.pkt/filter
+[packet]: http://godoc.org/github.com/adigal150/go.pkt/packet
+[layers]: http://godoc.org/github.com/adigal150/go.pkt/layers
+[network]: http://godoc.org/github.com/adigal150/go.pkt/network
+[routing]: http://godoc.org/github.com/adigal150/go.pkt/routing
 
 ## Getting Started
 
